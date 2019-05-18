@@ -1,4 +1,4 @@
-# combine-mysql-queries-without-Union
+## Combine-mysql-queries-without-Union
 Union queries is the most used solution for combining two queries. 
 It is better to use a single query method even if the structure is complex. 
 As an example, when we have a table consists of thousands of rows sometimes it is enough to show the top few rows. <br/>
