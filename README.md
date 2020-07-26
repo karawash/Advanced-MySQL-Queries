@@ -1,4 +1,4 @@
-## Combine MySQL queries without Union
+## Combine MySQL queries without Union - Advanced SQL
 Union queries is the most used solution for combining two queries. 
 It is better to use a single query method even if the structure is complex. 
 As an example, when we have a table consists of thousands of rows sometimes it is enough to show the top few rows. <br/>
@@ -47,12 +47,10 @@ Others   6754 <br/>
 
 <br/>
 In case of using Union, it is easy to call two queries: 'one to get the top rows' and 'second to get the last summary row'. <br/>
-This example returns the same result but in single query without <br/>
+This example returns the same result but in single query without using SQL union<br/>
 
 
 
-Copyright@Ahmad-Karawash <br/>
-<br/>
 set @row_number=0; <br/>
 set @sumval=0; <br/>
 select b.name, <br/>
